@@ -23,5 +23,24 @@ Since there are 26 letters in the English Alphabet, we would need $\lceil \log_2
 Therefore we could create a way of encoding the English Alphabet as 5 bits with each letter being encoded as 1+ the encoding of the previous letter, for instance 
 A=00000 and B=00001, etc.
 \section*{Problem 2}
+\subsection*{(a)}
+The equation for the circuit is 
+$$f(a,b,c)=((a\vee \bar{b})\wedge\bar{c})\vee\overline{((c\wedge\bar{a})\vee b)}$$
+Expanding it we get
+\begin{align*}
+    f(a,b,c)&=((a\wedge\bar{c})\vee (\bar{b}\wedge\bar{c}))
+                \vee\overline{((c\wedge\bar{a})\vee b)}\\
+    &=((a\wedge\bar{c})\vee (\bar{b}\wedge\bar{c}))
+    \vee\overline{((c\vee b)\wedge(\bar{a}\vee b))}\\
+    &=((a\wedge\bar{c})\vee (\bar{b}\wedge\bar{c}))
+    \vee(\overline{(c\vee b)}\vee\overline{(\bar{a}\vee b)})\\
+    &=(a\wedge\bar{c})\vee (\bar{b}\wedge\bar{c})
+    \vee(\bar{c}\wedge \bar{b})\vee(a\wedge\bar{b})\\
+    &=\boxed{(a\wedge\bar{c})
+    \vee(\bar{c}\wedge \bar{b})\vee(a\wedge\bar{b})}
+\end{align*}
+\subsection*{(b)}
+$$\boxed{(a\wedge\bar{c})
+\vee(\bar{c}\wedge \bar{b})\vee(a\wedge\bar{b})}$$
 
 \end{document}
