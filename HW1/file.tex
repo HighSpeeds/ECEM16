@@ -42,5 +42,114 @@ Expanding it we get
 \subsection*{(b)}
 $$\boxed{(a\wedge\bar{c})
 \vee(\bar{c}\wedge \bar{b})\vee(a\wedge\bar{b})}$$
+\section*{Problem 3}
+\subsection*{(a)}
+we have $a.\bar{a}=0$, therefore we have
+\begin{align*}
+    a+0&=a\\
+    a+(a.\bar{a})&=a\\
+    (a+a).(a+\bar{a})&=a\\
+    (a+a).1&=a\\
+    a+a&=a
+\end{align*}
+Likewise we have
+\begin{align*}
+    a.1&=a\\
+    a.(a+\bar{a})&=a\\
+    a.a+a.\bar{a}&=a\\
+    a.a+0&=a\\
+    a.a&=a
+\end{align*}
+\subsection*{(b)}
+From the Boolean Algebra postulates we have: 
+$$1.\bar{1}=0$$
+Therefore we must have that $\bar{1}=0$
+\subsection*{(c)}
+Let us consider the case where $\bar{a}$ was not unique, ie for $a_1\neq a_2$, we have
+$\bar{a_1}=\bar{a_2}=\bar{a}$. Since $\bar{a}.(a_1+a_2)=0$ and $\bar{a}+(a_1.a_2)=1$, we
+have that 
+\begin{align*}
+    a_1+(\bar{a}.(a_1+a_2))&=a_1\\
+    (a_1+\bar{a}).(a_1+a_1+a_2)&=a_1\\
+    (a_1+a_2)=a_1
+\end{align*}
+And that 
+\begin{align*}
+    a_1.(\bar{a}+(a_1.a_2))&=a_1\\
+    (a_1.\bar{a})+(a_1.a_1.a_2)&=a_1\\
+    (a_1.a_2)=a_1
+\end{align*}
+Therefore $a_1=a_2$, and thus $\bar{a}$ must be unique
+\section*{Problem 4}
+\subsection*{(a)}
+\begin{center}
+    \begin{tabular}{ |c|c|c||c| }
+        p & q & r  & f\\
+        \hline
+        1 & 1 & 1 & 1\\
+        \hline
+        1 & 1 & 0 & 1\\
+        \hline
+        1 & 0 & 1 & 0\\
+        \hline
+        1 & 0 & 0 & 0\\
+        \hline
+        0 & 1 & 1 & 1\\
+        \hline
+        0 & 1 & 0 & 0\\
+        \hline
+        0 & 0 & 1 & 1\\
+        \hline
+        0 & 0 & 0 & 0\\
+        \hline
 
+    \end{tabular}
+\end{center}
+
+\section*{Problem 5}
+\begin{center}
+    \begin{tabular}{ |c|c|c||c|c| }
+        x & y & z & $\overline{x+y+z}$ & $\overline{x}.\bar{y}.\bar{z}$\\
+        \hline
+        1 & 1 & 1 & 0 & 0\\
+        \hline
+        1 & 1 & 0 & 0 & 0\\
+        \hline
+        1 & 0 & 1 & 0 & 0\\
+        \hline
+        1 & 0 & 0 & 0 & 0\\
+        \hline
+        0 & 1 & 1 & 0 & 0\\
+        \hline
+        0 & 1 & 0 & 0 & 0\\
+        \hline
+        0 & 0 & 1 & 0 & 0\\
+        \hline
+        0 & 0 & 0 & 1 & 1\\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \begin{tabular}{ |c|c|c||c|c| }
+        x & y & z & $\overline{x.y.z}$ & $\overline{x}+\bar{y}+\bar{z}$\\
+        \hline
+        1 & 1 & 1 & 0 & 0\\
+        \hline
+        1 & 1 & 0 & 1 & 1\\
+        \hline
+        1 & 0 & 1 & 1 & 1\\
+        \hline
+        1 & 0 & 0 & 1 & 1\\
+        \hline
+        0 & 1 & 1 & 1 & 1\\
+        \hline
+        0 & 1 & 0 & 1 & 1\\
+        \hline
+        0 & 0 & 1 & 1 & 1\\
+        \hline
+        0 & 0 & 0 & 1 & 1\\
+        \hline
+    \end{tabular}
+\end{center}
 \end{document}
