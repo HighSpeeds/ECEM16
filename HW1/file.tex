@@ -1,0 +1,27 @@
+\documentclass[12pt]{article}
+\title{ECE M16 Homework 1}
+\usepackage{subcaption}
+\author{Lawrence Liu}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\newcommand{\Laplace}{\mathscr{L}}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\usepackage{amssymb}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour}}
+\lstset{style=mystyle}
+
+\begin{document}
+\maketitle
+\section*{Problem 1}
+Since there are 26 letters in the English Alphabet, we would need $\lceil \log_2 (26)\rceil=5$ bits to represent this signal.
+Therefore we could create a way of encoding the English Alphabet as 5 bits with each letter being encoded as 1+ the encoding of the previous letter, for instance 
+A=00000 and B=00001, etc.
+\section*{Problem 2}
+
+\end{document}
