@@ -105,7 +105,14 @@ Therefore $a_1=a_2$, and thus $\bar{a}$ must be unique
 
     \end{tabular}
 \end{center}
-
+\subsection*{(b)}
+\includegraphics[scale=0.1]{Kmap.jpg}
+\subsection*{(c)}
+\includegraphics[scale=0.1]{KmapPrime.jpg}
+\subsection*{(d)}
+\includegraphics[scale=0.1]{KmapFinal.jpg}
+Therefore the boolean expression for the function is 
+$$f(p,q,r)=\boxed{(\bar{p}\wedge r)\vee(p\wedge q)}$$
 \section*{Problem 5}
 \begin{center}
     \begin{tabular}{ |c|c|c||c|c| }
@@ -152,4 +159,12 @@ Therefore $a_1=a_2$, and thus $\bar{a}$ must be unique
         \hline
     \end{tabular}
 \end{center}
+\section*{Problem 6}
+\begin{align*}
+    (y.\bar{z}+\bar{x}.w).(x.\bar{y}+z.\bar{w})&=y.\bar{z}.(x.\bar{y}+z.\bar{w})+\bar{x}.w.(x.\bar{y}+z.\bar{w})\\
+    &=\bar{z}.x.y.\bar{y}+y.\bar{w}.z.\bar{z}+w.\bar{y}.\bar{x}.x+z.\bar{x}.w.\bar{w}
+    &=\boxed{0}
+\end{align*}
+since $x.\bar{x}=y.\bar{y}=w.\bar{w}=z.\bar{z}=0$
+
 \end{document}

@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1656460651 "/home/lawrence/Desktop/UCLA/ECEM16/HW1/file.tex" "file.pdf" "file" 1656460651
-  "/home/lawrence/Desktop/UCLA/ECEM16/HW1/file.tex" 1656460651 4154 119757003d4c3abd61069786bd4a40b8 ""
+["pdflatex"] 1656465807 "/home/lawrence/Desktop/UCLA/ECEM16/HW1/file.tex" "file.pdf" "file" 1656465807
+  "/home/lawrence/Desktop/UCLA/ECEM16/HW1/file.tex" 1656465807 4756 e7070be11500340cdb6e43669dcdc1ff ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1650183167 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1650183167 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -59,8 +59,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1656415129 4278762 af3ac1370db81a450c1118eabf1fe718 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1656415124 2927666 47c85127fb15a6047c11d6c3af0a15b9 ""
-  "file.aux" 1656460651 32 2d1df76398b3c48c6419a45a7331db2d "pdflatex"
-  "file.tex" 1656460651 4154 119757003d4c3abd61069786bd4a40b8 ""
+  "Kmap.jpg" 1656461772 215968 d848e69a8a7e391492856a78c0f44b0a ""
+  "KmapFinal.jpg" 1656463593 358942 0f9a3e9c22154dbc45a0860b8b82edc7 ""
+  "KmapPrime.jpg" 1656463575 312809 b1a5b4af5a1e5e2c44d152170201344d ""
+  "file.aux" 1656465807 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
+  "file.tex" 1656465807 4756 e7070be11500340cdb6e43669dcdc1ff ""
   (generated)
   "file.aux"
   "file.log"
