@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  1 JUL 2022 07:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  1 JUL 2022 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -226,24 +226,25 @@ Overfull \hbox (0.23576pt too wide) in paragraph at lines 22--24
 <KmapPrime.jpg, id=18, 2890.8pt x 1071.00125pt>
 File: KmapPrime.jpg Graphic file (type jpg)
 <use KmapPrime.jpg>
-Package pdftex.def Info: KmapPrime.jpg  used on input line 169.
+Package pdftex.def Info: KmapPrime.jpg  used on input line 165.
 (pdftex.def)             Requested size: 289.09694pt x 107.1064pt.
-<KmapFinal.jpg, id=19, 2786.41pt x 1180.41pt>
+ [4]
+<KmapFinal.jpg, id=22, 2786.41pt x 1180.41pt>
 File: KmapFinal.jpg Graphic file (type jpg)
 <use KmapFinal.jpg>
-Package pdftex.def Info: KmapFinal.jpg  used on input line 175.
+Package pdftex.def Info: KmapFinal.jpg  used on input line 171.
 (pdftex.def)             Requested size: 278.65732pt x 118.04791pt.
- [4 <./KmapPrime.jpg>] [5 <./KmapFinal.jpg>] [6] (./file.aux) ) 
+ [5 <./KmapPrime.jpg> <./KmapFinal.jpg>] [6] (./file.aux) ) 
 Here is how much of TeX's memory you used:
  5839 strings out of 478238
  90712 string characters out of 5850456
- 384687 words of memory out of 5000000
+ 391687 words of memory out of 5000000
  24047 multiletter control sequences out of 15000+600000
  477715 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,77p,339b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on file.pdf (6 pages, 747651 bytes).
+Output written on file.pdf (6 pages, 747681 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream

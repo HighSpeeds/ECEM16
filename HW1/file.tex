@@ -83,23 +83,19 @@ Therefore we could create a way of encoding the English Alphabet as 5 bits with 
 \section*{Problem 2}
 \subsection*{(a)}
 The equation for the circuit is 
-$$f(a,b,c)=((a\vee \bar{b})\wedge\bar{c})\vee\overline{((c\wedge\bar{a})\vee b)}$$
+$$f(a,b,c)=((a\wedge \bar{b})\vee\bar{c})\wedge\overline{((c\vee\bar{a})\wedge b)}$$
 Expanding it we get
 \begin{align*}
-    f(a,b,c)&=((a\wedge\bar{c})\vee (\bar{b}\wedge\bar{c}))
-                \vee\overline{((c\wedge\bar{a})\vee b)}\\
-    &=((a\wedge\bar{c})\vee (\bar{b}\wedge\bar{c}))
-    \vee\overline{((c\vee b)\wedge(\bar{a}\vee b))}\\
-    &=((a\wedge\bar{c})\vee (\bar{b}\wedge\bar{c}))
-    \vee(\overline{(c\vee b)}\vee\overline{(\bar{a}\vee b)})\\
-    &=(a\wedge\bar{c})\vee (\bar{b}\wedge\bar{c})
-    \vee(\bar{c}\wedge \bar{b})\vee(a\wedge\bar{b})\\
-    &=\boxed{(a\wedge\bar{c})
-    \vee(\bar{c}\wedge \bar{b})\vee(a\wedge\bar{b})}
+    f(a,b,c)&=((a\wedge \bar{b})\vee\bar{c})\wedge(\overline{(c\vee\bar{a})}\vee \overline{b})\\
+    &=((a\wedge \bar{b})\vee\bar{c})\wedge((\overline{c}\wedge a)\vee \overline{b})\\
+    &=((a\wedge \bar{b})\wedge((\overline{c}\wedge a)\vee \overline{b}))\vee(\bar{c}\wedge((\overline{c}\wedge a)\vee \overline{b}))\\
+    &=\boxed{(a\wedge \bar{b}\wedge\overline{c})\vee(a\wedge \bar{b})\vee(\overline{c}\wedge a)\vee (\overline{c}\wedge\overline{b})}
 \end{align*}
 \subsection*{(b)}
-$$\boxed{(a\wedge\bar{c})
-\vee(\bar{c}\wedge \bar{b})\vee(a\wedge\bar{b})}$$
+\begin{align*}
+    f(a,b,c)&=(a\wedge \bar{b}\wedge\overline{c})\vee(a\wedge \bar{b})\vee(\overline{c}\wedge a)\vee (\overline{c}\wedge\overline{b})\\
+    &=\boxed{(a\wedge \bar{b})\vee(\overline{c}\wedge a)\vee (\overline{c}\wedge\overline{b})}\\
+\end{align*}
 \section*{Problem 3}
 \subsection*{(a)}
 we have $a.\bar{a}=0$, therefore we have
