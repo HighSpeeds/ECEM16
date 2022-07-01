@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  1 JUL 2022 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  1 JUL 2022 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -215,7 +215,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (C:\Users\Lawrence\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (0.23576pt too wide) in paragraph at lines 22--25
+Overfull \hbox (0.23576pt too wide) in paragraph at lines 22--24
 \OT1/cmr/m/n/12 Since there are 26 let-ters in the En-glish Al-pha-bet, we would need $\OMS/cmsy/m/n/12 d[][]\OT1/cmr/m/n/12 (26)\OMS/cmsy/m/n/12 e \OT1/cmr/m/n/12 =
  []
 
@@ -225,12 +225,12 @@ Overfull \hbox (0.23576pt too wide) in paragraph at lines 22--25
 <KmapPrime.jpg, id=17, 2890.8pt x 1071.00125pt>
 File: KmapPrime.jpg Graphic file (type jpg)
 <use KmapPrime.jpg>
-Package pdftex.def Info: KmapPrime.jpg  used on input line 111.
+Package pdftex.def Info: KmapPrime.jpg  used on input line 114.
 (pdftex.def)             Requested size: 289.09694pt x 107.1064pt.
 <KmapFinal.jpg, id=18, 2786.41pt x 1180.41pt>
 File: KmapFinal.jpg Graphic file (type jpg)
 <use KmapFinal.jpg>
-Package pdftex.def Info: KmapFinal.jpg  used on input line 117.
+Package pdftex.def Info: KmapFinal.jpg  used on input line 120.
 (pdftex.def)             Requested size: 278.65732pt x 118.04791pt.
  [4 <./KmapPrime.jpg>] [5 <./KmapFinal.jpg>] [6] (file.aux) ) 
 Here is how much of TeX's memory you used:
@@ -242,7 +242,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  67i,13n,77p,349b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on file.pdf (6 pages, 751662 bytes).
+Output written on file.pdf (6 pages, 751638 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1656698978 "c:/Users/Lawrence/Desktop/UCLA/Classes/ECEM16/HW1/file.tex" "file.pdf" "file" 1656698979
+["pdflatex"] 1656702084 "c:/Users/Lawrence/Desktop/UCLA/Classes/ECEM16/HW1/file.tex" "file.pdf" "file" 1656702085
   "C:/Users/Lawrence/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1653801395 81239 da89e99f8950bd4b937749f4c74af311 ""
   "C:/Users/Lawrence/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1643615794 9771389 75e56a91aefd99356202ce3fe2a79783 ""
   "C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
@@ -58,9 +58,9 @@
   "C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
   "KmapFinal.jpg" 1656698589 358942 ffec3ee27e497273302c222411b5d5e2 ""
   "KmapPrime.jpg" 1656698589 312809 b1a5b4af5a1e5e2c44d152170201344d ""
-  "c:/Users/Lawrence/Desktop/UCLA/Classes/ECEM16/HW1/file.tex" 1656698977 5191 9ed92afe17d8acc6611e576df2b5c2ad ""
-  "file.aux" 1656698979 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
-  "file.tex" 1656698977 5191 9ed92afe17d8acc6611e576df2b5c2ad ""
+  "c:/Users/Lawrence/Desktop/UCLA/Classes/ECEM16/HW1/file.tex" 1656702083 5208 9197b87fcc0bf2069d6404898356f1b4 ""
+  "file.aux" 1656702085 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
+  "file.tex" 1656702083 5208 9197b87fcc0bf2069d6404898356f1b4 ""
   (generated)
   "file.aux"
   "file.log"
