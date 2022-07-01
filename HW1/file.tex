@@ -119,21 +119,18 @@ From the Boolean Algebra postulates we have:
 $$1.\bar{1}=0$$
 Therefore we must have that $\bar{1}=0$
 \subsection*{(c)}
-Let us consider the case where $\bar{a}$ was not unique, ie for $a_1\neq a_2$, we have
-$\bar{a_1}=\bar{a_2}=\bar{a}$. Since $\bar{a}.(a_1+a_2)=0$ and $\bar{a}+(a_1.a_2)=1$, we
-have that 
-\begin{align*}
-    a_1+(\bar{a}.(a_1+a_2))&=a_1\\
-    (a_1+\bar{a}).(a_1+a_1+a_2)&=a_1\\
-    (a_1+a_2)=a_1
-\end{align*}
-And that 
-\begin{align*}
-    a_1.(\bar{a}+(a_1.a_2))&=a_1\\
-    (a_1.\bar{a})+(a_1.a_1.a_2)&=a_1\\
-    (a_1.a_2)=a_1
-\end{align*}
-Therefore $a_1=a_2$, and thus $\bar{a}$ must be unique
+
+Let us prove that $\bar{a}$ is unique through contradiction, ie: for a given $a$, there are
+two variables, $\bar{a_1}$ and $\bar{a_2}$, that satisfy the complement law:
+$$\bar{a_1}.a=\bar{a_2}.a=0$$
+$$\bar{a_1}+a=\bar{a_2}+a=1$$
+We also have
+
+$$\bar{a_1}.a.\bar{a_2}=(\bar{a_1}.a).\bar{a_2}=\bar{a_2}$$
+And
+$$\bar{a_1}.a.\bar{a_2}=\bar{a_1}.(a.\bar{a_2})=\bar{a_1}$$
+
+Therefore $\bar{a_1}=\bar{a_2}$, and thus $\bar{a}$ must be unique for a given $a$.
 \section*{Problem 4}
 \subsection*{(a)}
 \begin{center}
