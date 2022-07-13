@@ -324,6 +324,11 @@ INPUT ./Problem7Partc.png
 INPUT Problem7Partc.png
 INPUT ./Problem7Partc.png
 INPUT ./Problem7Partc.png
+INPUT ./Problem1.png
+INPUT ./Problem1.png
+INPUT Problem1.png
+INPUT ./Problem1.png
+INPUT ./Problem1.png
 INPUT file.aux
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
