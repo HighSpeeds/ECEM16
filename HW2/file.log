@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  12 JUL 2022 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  13 JUL 2022 00:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,57 +516,64 @@ File: ../HW1/Kmap.jpg Graphic file (type jpg)
 <use ../HW1/Kmap.jpg>
 Package pdftex.def Info: ../HW1/Kmap.jpg  used on input line 39.
 (pdftex.def)             Requested size: 301.11201pt x 177.05386pt.
-<Problem7Kmap.jpg, id=5, 2240.37pt x 1180.41pt>
-File: Problem7Kmap.jpg Graphic file (type jpg)
-<use Problem7Kmap.jpg>
-Package pdftex.def Info: Problem7Kmap.jpg  used on input line 73.
-(pdftex.def)             Requested size: 336.041pt x 177.05386pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../HW1/Kmap.jpg>]
-<Problem7Partc.png, id=16, 1373.13pt x 575.14874pt>
+<Problem7Kmap.jpg, id=14, 2240.37pt x 1180.41pt>
+File: Problem7Kmap.jpg Graphic file (type jpg)
+<use Problem7Kmap.jpg>
+Package pdftex.def Info: Problem7Kmap.jpg  used on input line 74.
+(pdftex.def)             Requested size: 336.041pt x 177.05386pt.
+<Problem7Partc.png, id=15, 1373.13pt x 575.14874pt>
 File: Problem7Partc.png Graphic file (type png)
 <use Problem7Partc.png>
-Package pdftex.def Info: Problem7Partc.png  used on input line 77.
+Package pdftex.def Info: Problem7Partc.png  used on input line 78.
 (pdftex.def)             Requested size: 343.28166pt x 143.78683pt.
-<Problem1.png, id=17, 1001.24063pt x 465.23813pt>
+ [2 <./Problem7Kmap.jpg>]
+<Problem1.png, id=23, 1001.24063pt x 465.23813pt>
 File: Problem1.png Graphic file (type png)
 <use Problem1.png>
-Package pdftex.def Info: Problem1.png  used on input line 81.
+Package pdftex.def Info: Problem1.png  used on input line 83.
 (pdftex.def)             Requested size: 250.30954pt x 116.30923pt.
- [2 <./Problem7Kmap.jpg> <./Problem7Partc.png (PNG copy)> <./Problem1.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+ [3 <./Problem7Partc.png (PNG copy)> <./Problem1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
-<Problem2.png, id=24, 1124.70187pt x 823.57687pt>
+<Problem2.png, id=27, 1124.70187pt x 823.57687pt>
 File: Problem2.png Graphic file (type png)
 <use Problem2.png>
-Package pdftex.def Info: Problem2.png  used on input line 165.
+Package pdftex.def Info: Problem2.png  used on input line 167.
 (pdftex.def)             Requested size: 281.17477pt x 205.8937pt.
-[3] [4 <./Problem2.png (PNG copy)>] (./file.aux) )
-(\end occurred when \ifx on line 158 was incomplete)
-(\end occurred when \ifx on line 158 was incomplete)
-(\end occurred when \ifx on line 158 was incomplete)
-(\end occurred when \ifx on line 158 was incomplete)
-(\end occurred when \ifx on line 132 was incomplete)
-(\end occurred when \ifx on line 132 was incomplete)
-(\end occurred when \ifx on line 132 was incomplete)
-(\end occurred when \ifx on line 132 was incomplete)
-(\end occurred when \ifx on line 132 was incomplete) 
+[4]
+<Problem3.png, id=32, 855.195pt x 1270.7475pt>
+File: Problem3.png Graphic file (type png)
+<use Problem3.png>
+Package pdftex.def Info: Problem3.png  used on input line 170.
+(pdftex.def)             Requested size: 213.79823pt x 317.6861pt.
+ [5 <./Problem2.png (PNG copy)> <./Problem3.png (PNG copy)>] (./file.aux) )
+(\end occurred when \ifx on line 160 was incomplete)
+(\end occurred when \ifx on line 160 was incomplete)
+(\end occurred when \ifx on line 160 was incomplete)
+(\end occurred when \ifx on line 160 was incomplete)
+(\end occurred when \ifx on line 134 was incomplete)
+(\end occurred when \ifx on line 134 was incomplete)
+(\end occurred when \ifx on line 134 was incomplete)
+(\end occurred when \ifx on line 134 was incomplete)
+(\end occurred when \ifx on line 134 was incomplete) 
 Here is how much of TeX's memory you used:
- 17777 strings out of 478238
- 362939 string characters out of 5850456
- 720332 words of memory out of 5000000
- 35718 multiletter control sequences out of 15000+600000
+ 17784 strings out of 478238
+ 363054 string characters out of 5850456
+ 720330 words of memory out of 5000000
+ 35724 multiletter control sequences out of 15000+600000
  478657 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,7n,94p,442b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on file.pdf (4 pages, 721281 bytes).
+Output written on file.pdf (5 pages, 815784 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
