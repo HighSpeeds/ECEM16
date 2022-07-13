@@ -31,7 +31,7 @@
 \definecolor{LogisimKMapColor15}{RGB}{240,50,230}
 
 \fancyhead{}
-\fancyhead[C] {Logisim-evolution generated document on Tue Jul 12 22:41:56 PDT 2022}
+\fancyhead[C] {Logisim-evolution generated document on Tue Jul 12 22:35:20 PDT 2022}
 \fancyfoot[C] {\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
@@ -47,44 +47,42 @@ The table may be way to big to be displayed on the page. At generation time no c
 %-------------------------------------------------------------------------------
 \subsection{Compacted truth table}
 \begin{center}
-\begin{tabular}{cccc|cc}
-$M3$&$M2$&$M1$&$M0$&$q5$&$q2$\\
+\begin{tabular}{cccc|c}
+$M3$&$M2$&$M1$&$M0$&$q2$\\
 \hline
-$0$&$0$&$-$&$0$&$1$&$1$\\
-$0$&$0$&$-$&$1$&$1$&$0$\\
-$0$&$1$&$0$&$0$&$1$&$0$\\
-$0$&$1$&$0$&$1$&$0$&$0$\\
-$0$&$1$&$1$&$0$&$0$&$1$\\
-$0$&$1$&$1$&$1$&$1$&$0$\\
-$1$&$0$&$0$&$0$&$1$&$1$\\
-$1$&$0$&$0$&$1$&$1$&$0$\\
-$1$&$-$&$1$&$-$&$-$&$-$\\
-$1$&$1$&$0$&$-$&$-$&$-$\\
+$0$&$0$&$-$&$-$&$1$\\
+$0$&$1$&$0$&$0$&$1$\\
+$0$&$1$&$0$&$1$&$0$\\
+$0$&$1$&$1$&$0$&$0$\\
+$0$&$1$&$1$&$1$&$1$\\
+$1$&$0$&$0$&$-$&$1$\\
+$1$&$-$&$1$&$-$&$-$\\
+$1$&$1$&$0$&$-$&$-$\\
 
 \end{tabular}
 \end{center}
 %-------------------------------------------------------------------------------
 \subsection{Complete truth table}
 \begin{center}
-\begin{tabular}{cccc|cc}
-$M3$&$M2$&$M1$&$M0$&$q5$&$q2$\\
+\begin{tabular}{cccc|c}
+$M3$&$M2$&$M1$&$M0$&$q2$\\
 \hline
-$0$&$0$&$0$&$0$&$1$&$1$\\
-$0$&$0$&$0$&$1$&$1$&$0$\\
-$0$&$0$&$1$&$0$&$1$&$1$\\
-$0$&$0$&$1$&$1$&$1$&$0$\\
-$0$&$1$&$0$&$0$&$1$&$0$\\
-$0$&$1$&$0$&$1$&$0$&$0$\\
-$0$&$1$&$1$&$0$&$0$&$1$\\
-$0$&$1$&$1$&$1$&$1$&$0$\\
-$1$&$0$&$0$&$0$&$1$&$1$\\
-$1$&$0$&$0$&$1$&$1$&$0$\\
-$1$&$0$&$1$&$0$&$-$&$-$\\
-$1$&$0$&$1$&$1$&$-$&$-$\\
-$1$&$1$&$0$&$0$&$-$&$-$\\
-$1$&$1$&$0$&$1$&$-$&$-$\\
-$1$&$1$&$1$&$0$&$-$&$-$\\
-$1$&$1$&$1$&$1$&$-$&$-$\\
+$0$&$0$&$0$&$0$&$1$\\
+$0$&$0$&$0$&$1$&$1$\\
+$0$&$0$&$1$&$0$&$1$\\
+$0$&$0$&$1$&$1$&$1$\\
+$0$&$1$&$0$&$0$&$1$\\
+$0$&$1$&$0$&$1$&$0$\\
+$0$&$1$&$1$&$0$&$0$\\
+$0$&$1$&$1$&$1$&$1$\\
+$1$&$0$&$0$&$0$&$1$\\
+$1$&$0$&$0$&$1$&$1$\\
+$1$&$0$&$1$&$0$&$-$\\
+$1$&$0$&$1$&$1$&$-$\\
+$1$&$1$&$0$&$0$&$-$\\
+$1$&$1$&$0$&$1$&$-$\\
+$1$&$1$&$1$&$0$&$-$\\
+$1$&$1$&$1$&$1$&$-$\\
 
 \end{tabular}
 \end{center}
@@ -93,24 +91,6 @@ $1$&$1$&$1$&$1$&$-$&$-$\\
 This section shows various versions of the Karnaugh diagrams of the given functions.
 %-------------------------------------------------------------------------------
 \subsection{Empty Karnaugh diagrams}
-\begin{center}
-\begin{tikzpicture}[karnaugh,disable bars,x=1\kmunitlength,y=1\kmunitlength,kmbar left sep=1\kmunitlength,grp/.style n args={4}{#1,fill=#1!30,minimum width= #2\kmunitlength,minimum height=#3\kmunitlength,rounded corners=0.2\kmunitlength,fill opacity=0.6,rectangle,draw}]
-\karnaughmap{4}{$q5$}{{$M3$}{$M1$}{$M2$}{$M0$}}{}{
-\draw[kmbox] (-0.5,4.5)
-   node[below left]{$M3$, $M2$}
-   node[above right]{$M1$, $M0$} +(-0.2,0.2)
-   node[above left]{$q5$};\draw (0,4) -- (-0.7,4.7);
-\foreach \x/\1 in %
-{0/00,1/01,2/11,3/10} {
-   \node at (\x+0.5,4.2) {\1};
-}
-\foreach \y/\1 in %
-{0/00,1/01,2/11,3/10} {
-   \node at (-0.4,-0.5-\y+4) {\1};
-}
-}
-\end{tikzpicture}
-\end{center}
 \begin{center}
 \begin{tikzpicture}[karnaugh,disable bars,x=1\kmunitlength,y=1\kmunitlength,kmbar left sep=1\kmunitlength,grp/.style n args={4}{#1,fill=#1!30,minimum width= #2\kmunitlength,minimum height=#3\kmunitlength,rounded corners=0.2\kmunitlength,fill opacity=0.6,rectangle,draw}]
 \karnaughmap{4}{$q2$}{{$M3$}{$M1$}{$M2$}{$M0$}}{}{
@@ -133,27 +113,8 @@ This section shows various versions of the Karnaugh diagrams of the given functi
 \subsection{Filled in Karnaugh diagrams}
 \begin{center}
 \begin{tikzpicture}[karnaugh,disable bars,x=1\kmunitlength,y=1\kmunitlength,kmbar left sep=1\kmunitlength,grp/.style n args={4}{#1,fill=#1!30,minimum width= #2\kmunitlength,minimum height=#3\kmunitlength,rounded corners=0.2\kmunitlength,fill opacity=0.6,rectangle,draw}]
-\karnaughmap{4}{$q5$}{{$M3$}{$M1$}{$M2$}{$M0$}}
-{1110110111------}{
-\draw[kmbox] (-0.5,4.5)
-   node[below left]{$M3$, $M2$}
-   node[above right]{$M1$, $M0$} +(-0.2,0.2)
-   node[above left]{$q5$};\draw (0,4) -- (-0.7,4.7);
-\foreach \x/\1 in %
-{0/00,1/01,2/11,3/10} {
-   \node at (\x+0.5,4.2) {\1};
-}
-\foreach \y/\1 in %
-{0/00,1/01,2/11,3/10} {
-   \node at (-0.4,-0.5-\y+4) {\1};
-}
-}
-\end{tikzpicture}
-\end{center}
-\begin{center}
-\begin{tikzpicture}[karnaugh,disable bars,x=1\kmunitlength,y=1\kmunitlength,kmbar left sep=1\kmunitlength,grp/.style n args={4}{#1,fill=#1!30,minimum width= #2\kmunitlength,minimum height=#3\kmunitlength,rounded corners=0.2\kmunitlength,fill opacity=0.6,rectangle,draw}]
 \karnaughmap{4}{$q2$}{{$M3$}{$M1$}{$M2$}{$M0$}}
-{1000101010------}{
+{1110110111------}{
 \draw[kmbox] (-0.5,4.5)
    node[below left]{$M3$, $M2$}
    node[above right]{$M1$, $M0$} +(-0.2,0.2)
@@ -173,12 +134,12 @@ This section shows various versions of the Karnaugh diagrams of the given functi
 \subsection{Filled in Karnaugh diagrams with covers}
 \begin{center}
 \begin{tikzpicture}[karnaugh,disable bars,x=1\kmunitlength,y=1\kmunitlength,kmbar left sep=1\kmunitlength,grp/.style n args={4}{#1,fill=#1!30,minimum width= #2\kmunitlength,minimum height=#3\kmunitlength,rounded corners=0.2\kmunitlength,fill opacity=0.6,rectangle,draw}]
-\karnaughmap{4}{$q5$}{{$M3$}{$M1$}{$M2$}{$M0$}}
+\karnaughmap{4}{$q2$}{{$M3$}{$M1$}{$M2$}{$M0$}}
 {1110110111------}{
 \draw[kmbox] (-0.5,4.5)
    node[below left]{$M3$, $M2$}
    node[above right]{$M1$, $M0$} +(-0.2,0.2)
-   node[above left]{$q5$};\draw (0,4) -- (-0.7,4.7);
+   node[above left]{$q2$};\draw (0,4) -- (-0.7,4.7);
 \foreach \x/\1 in %
 {0/00,1/01,2/11,3/10} {
    \node at (\x+0.5,4.2) {\1};
@@ -194,32 +155,7 @@ This section shows various versions of the Karnaugh diagrams of the given functi
 }
 \end{tikzpicture}
 \end{center}
-\begin{center}
-\begin{tikzpicture}[karnaugh,disable bars,x=1\kmunitlength,y=1\kmunitlength,kmbar left sep=1\kmunitlength,grp/.style n args={4}{#1,fill=#1!30,minimum width= #2\kmunitlength,minimum height=#3\kmunitlength,rounded corners=0.2\kmunitlength,fill opacity=0.6,rectangle,draw}]
-\karnaughmap{4}{$q2$}{{$M3$}{$M1$}{$M2$}{$M0$}}
-{1000101010------}{
-\draw[kmbox] (-0.5,4.5)
-   node[below left]{$M3$, $M2$}
-   node[above right]{$M1$, $M0$} +(-0.2,0.2)
-   node[above left]{$q2$};\draw (0,4) -- (-0.7,4.7);
-\foreach \x/\1 in %
-{0/00,1/01,2/11,3/10} {
-   \node at (\x+0.5,4.2) {\1};
-}
-\foreach \y/\1 in %
-{0/00,1/01,2/11,3/10} {
-   \node at (-0.4,-0.5-\y+4) {\1};
-}
-   \node[grp={LogisimKMapColor1}{0.8}{0.8}](n0) at(0.5,3.5) {};
-   \node[grp={LogisimKMapColor1}{0.8}{0.8}](n1) at(3.5,3.5) {};
-   \node[grp={LogisimKMapColor1}{0.8}{0.8}](n2) at(0.5,0.5) {};
-   \node[grp={LogisimKMapColor1}{0.8}{0.8}](n3) at(3.5,0.5) {};
-   \node[grp={LogisimKMapColor2}{0.8}{3.8}](n4) at(3.5,2) {};
-}
-\end{tikzpicture}
-\end{center}
 %===============================================================================
 \section{Minimal expressions}
-$q5 =  \overline{M2} + \overline{M1}  \cdot  \overline{M0} +M1 \cdot M0$~\\
-$q2 =  \overline{M2}  \cdot  \overline{M0} +M1 \cdot  \overline{M0} $~\\
+$q2 =  \overline{M2} + \overline{M1}  \cdot  \overline{M0} +M1 \cdot M0$~\\
 \end{document}
