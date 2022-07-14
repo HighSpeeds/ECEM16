@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  14 JUL 2022 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  14 JUL 2022 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -514,69 +514,69 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 <../HW1/Kmap.jpg, id=4, 2007.5pt x 1180.41pt>
 File: ../HW1/Kmap.jpg Graphic file (type jpg)
 <use ../HW1/Kmap.jpg>
-Package pdftex.def Info: ../HW1/Kmap.jpg  used on input line 39.
+Package pdftex.def Info: ../HW1/Kmap.jpg  used on input line 42.
 (pdftex.def)             Requested size: 301.11201pt x 177.05386pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../HW1/Kmap.jpg>]
-<Problem7Kmap.jpg, id=14, 2240.37pt x 1180.41pt>
+<Problem7Kmap.jpg, id=15, 2240.37pt x 1180.41pt>
 File: Problem7Kmap.jpg Graphic file (type jpg)
 <use Problem7Kmap.jpg>
-Package pdftex.def Info: Problem7Kmap.jpg  used on input line 74.
+Package pdftex.def Info: Problem7Kmap.jpg  used on input line 76.
 (pdftex.def)             Requested size: 336.041pt x 177.05386pt.
-<Problem7Partc.png, id=15, 1373.13pt x 575.14874pt>
+<Problem7Partc.png, id=16, 1373.13pt x 575.14874pt>
 File: Problem7Partc.png Graphic file (type png)
 <use Problem7Partc.png>
-Package pdftex.def Info: Problem7Partc.png  used on input line 78.
+Package pdftex.def Info: Problem7Partc.png  used on input line 80.
 (pdftex.def)             Requested size: 343.28166pt x 143.78683pt.
  [2 <./Problem7Kmap.jpg>]
 <Problem1.png, id=23, 1001.24063pt x 465.23813pt>
 File: Problem1.png Graphic file (type png)
 <use Problem1.png>
-Package pdftex.def Info: Problem1.png  used on input line 83.
+Package pdftex.def Info: Problem1.png  used on input line 86.
 (pdftex.def)             Requested size: 250.30954pt x 116.30923pt.
  [3 <./Problem7Partc.png (PNG copy)> <./Problem1.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
 <Problem2.png, id=27, 1124.70187pt x 823.57687pt>
 File: Problem2.png Graphic file (type png)
 <use Problem2.png>
-Package pdftex.def Info: Problem2.png  used on input line 167.
+Package pdftex.def Info: Problem2.png  used on input line 170.
 (pdftex.def)             Requested size: 281.17477pt x 205.8937pt.
 [4]
 <Problem3.png, id=32, 1106.63437pt x 950.04938pt>
 File: Problem3.png Graphic file (type png)
 <use Problem3.png>
-Package pdftex.def Info: Problem3.png  used on input line 171.
+Package pdftex.def Info: Problem3.png  used on input line 174.
 (pdftex.def)             Requested size: 276.65791pt x 237.51176pt.
 <Problem4.png, id=33, 1311.39937pt x 710.655pt>
 File: Problem4.png Graphic file (type png)
 <use Problem4.png>
-Package pdftex.def Info: Problem4.png  used on input line 175.
+Package pdftex.def Info: Problem4.png  used on input line 178.
 (pdftex.def)             Requested size: 327.84904pt x 177.66331pt.
  [5 <./Problem2.png (PNG copy)> <./Problem3.png (PNG copy)>]
 <Problem5.png, id=37, 1067.48813pt x 412.54124pt>
 File: Problem5.png Graphic file (type png)
 <use Problem5.png>
-Package pdftex.def Info: Problem5.png  used on input line 179.
+Package pdftex.def Info: Problem5.png  used on input line 182.
 (pdftex.def)             Requested size: 266.87138pt x 103.13506pt.
 <Problem6.png, id=38, 1329.46687pt x 392.96812pt>
 File: Problem6.png Graphic file (type png)
 <use Problem6.png>
-Package pdftex.def Info: Problem6.png  used on input line 183.
+Package pdftex.def Info: Problem6.png  used on input line 186.
 (pdftex.def)             Requested size: 332.3659pt x 98.24178pt.
  [6 <./Problem4.png (PNG copy)> <./Problem5.png (PNG copy)> <./Problem6.png (PNG copy)>] (./file.aux) )
-(\end occurred when \ifx on line 160 was incomplete)
-(\end occurred when \ifx on line 160 was incomplete)
-(\end occurred when \ifx on line 160 was incomplete)
-(\end occurred when \ifx on line 160 was incomplete)
-(\end occurred when \ifx on line 134 was incomplete)
-(\end occurred when \ifx on line 134 was incomplete)
-(\end occurred when \ifx on line 134 was incomplete)
-(\end occurred when \ifx on line 134 was incomplete)
-(\end occurred when \ifx on line 134 was incomplete) 
+(\end occurred when \ifx on line 163 was incomplete)
+(\end occurred when \ifx on line 163 was incomplete)
+(\end occurred when \ifx on line 163 was incomplete)
+(\end occurred when \ifx on line 163 was incomplete)
+(\end occurred when \ifx on line 137 was incomplete)
+(\end occurred when \ifx on line 137 was incomplete)
+(\end occurred when \ifx on line 137 was incomplete)
+(\end occurred when \ifx on line 137 was incomplete)
+(\end occurred when \ifx on line 137 was incomplete) 
 Here is how much of TeX's memory you used:
  17805 strings out of 478238
  363399 string characters out of 5850456
@@ -586,7 +586,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,7n,94p,442b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on file.pdf (6 pages, 1001789 bytes).
+Output written on file.pdf (6 pages, 1007903 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

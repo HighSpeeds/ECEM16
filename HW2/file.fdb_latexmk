@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1657834922 "/home/lawrence/Desktop/UCLA/ECEM16/HW2/file.tex" "file.pdf" "file" 1657834922
+["pdflatex"] 1657835178 "/home/lawrence/Desktop/UCLA/ECEM16/HW2/file.tex" "file.pdf" "file" 1657835179
   "../HW1/Kmap.jpg" 1656461772 215968 d848e69a8a7e391492856a78c0f44b0a ""
-  "/home/lawrence/Desktop/UCLA/ECEM16/HW2/file.tex" 1657772845 6487 a214c69d2332b6d1be6b6987332f0922 ""
+  "/home/lawrence/Desktop/UCLA/ECEM16/HW2/file.tex" 1657835178 6549 90d888866cd62b763f1f152b7cf86ddf ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1650183167 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1650183167 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -151,8 +151,8 @@
   "Problem6.png" 1657772635 48688 983286dc4438e6c4d4f5dad0bd428821 ""
   "Problem7Kmap.jpg" 1657665312 219619 12fecf7649cffc052f7840a7365b333e ""
   "Problem7Partc.png" 1657680381 70368 fa1ec9ace5d227c51da24cca678b4f64 ""
-  "file.aux" 1657834922 112 a02d5e4ac731e0ceb5f2c7e8018f0da1 "pdflatex"
-  "file.tex" 1657772845 6487 a214c69d2332b6d1be6b6987332f0922 ""
+  "file.aux" 1657835179 112 a02d5e4ac731e0ceb5f2c7e8018f0da1 "pdflatex"
+  "file.tex" 1657835178 6549 90d888866cd62b763f1f152b7cf86ddf ""
   (generated)
   "file.aux"
   "file.log"
