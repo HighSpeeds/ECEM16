@@ -18,7 +18,7 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <main name="main"/>
+  <main name="Problem2"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -51,15 +51,6 @@
     <tool lib="4" name="D Flip-Flop"/>
     <tool lib="4" name="Register"/>
   </toolbar>
-  <circuit name="main">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-    <comp lib="1" loc="(280,260)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-  </circuit>
   <circuit name="Problem1">
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="Problem1"/>
@@ -129,6 +120,9 @@
     <comp lib="8" loc="(514,81)" name="Text">
       <a name="text" val="A"/>
     </comp>
+    <comp lib="8" loc="(659,55)" name="Text">
+      <a name="text" val="Fixed Circuit"/>
+    </comp>
     <comp lib="8" loc="(961,188)" name="Text">
       <a name="text" val="Y"/>
     </comp>
@@ -175,69 +169,6 @@
     <wire from="(90,270)" to="(90,370)"/>
     <wire from="(90,370)" to="(250,370)"/>
     <wire from="(900,180)" to="(910,180)"/>
-  </circuit>
-  <circuit name="Problem2q2">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="Problem2q2"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(110,120)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="M1"/>
-    </comp>
-    <comp lib="0" loc="(110,150)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="M0"/>
-    </comp>
-    <comp lib="0" loc="(110,60)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="M3"/>
-    </comp>
-    <comp lib="0" loc="(110,90)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="M2"/>
-    </comp>
-    <comp lib="0" loc="(420,90)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="q2"/>
-      <a name="output" val="true"/>
-    </comp>
-    <comp lib="1" loc="(220,100)" name="NOT Gate"/>
-    <comp lib="1" loc="(220,60)" name="NOT Gate"/>
-    <comp lib="1" loc="(340,140)" name="AND Gate">
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(340,70)" name="AND Gate">
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(400,90)" name="OR Gate">
-      <a name="size" val="30"/>
-    </comp>
-    <wire from="(110,120)" to="(140,120)"/>
-    <wire from="(110,150)" to="(150,150)"/>
-    <wire from="(110,90)" to="(130,90)"/>
-    <wire from="(130,60)" to="(130,90)"/>
-    <wire from="(130,60)" to="(190,60)"/>
-    <wire from="(140,120)" to="(140,160)"/>
-    <wire from="(140,160)" to="(290,160)"/>
-    <wire from="(150,100)" to="(150,150)"/>
-    <wire from="(150,100)" to="(190,100)"/>
-    <wire from="(220,100)" to="(280,100)"/>
-    <wire from="(220,60)" to="(310,60)"/>
-    <wire from="(280,100)" to="(280,130)"/>
-    <wire from="(280,100)" to="(310,100)"/>
-    <wire from="(280,130)" to="(310,130)"/>
-    <wire from="(290,150)" to="(290,160)"/>
-    <wire from="(290,150)" to="(310,150)"/>
-    <wire from="(310,80)" to="(310,100)"/>
-    <wire from="(340,140)" to="(360,140)"/>
-    <wire from="(340,70)" to="(360,70)"/>
-    <wire from="(360,100)" to="(360,140)"/>
-    <wire from="(360,100)" to="(370,100)"/>
-    <wire from="(360,70)" to="(360,80)"/>
-    <wire from="(360,80)" to="(370,80)"/>
-    <wire from="(400,90)" to="(420,90)"/>
   </circuit>
   <circuit name="Problem2">
     <a name="appearance" val="logisim_evolution"/>
@@ -368,12 +299,6 @@
       <a name="incoming" val="16"/>
     </comp>
     <comp lib="0" loc="(390,400)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="0" loc="(390,450)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
