@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  13 JUL 2022 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  13 JUL 2022 21:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -546,12 +546,28 @@ File: Problem2.png Graphic file (type png)
 Package pdftex.def Info: Problem2.png  used on input line 167.
 (pdftex.def)             Requested size: 281.17477pt x 205.8937pt.
 [4]
-<Problem3.png, id=32, 855.195pt x 1270.7475pt>
+<Problem3.png, id=32, 1106.63437pt x 950.04938pt>
 File: Problem3.png Graphic file (type png)
 <use Problem3.png>
-Package pdftex.def Info: Problem3.png  used on input line 170.
-(pdftex.def)             Requested size: 213.79823pt x 317.6861pt.
- [5 <./Problem2.png (PNG copy)> <./Problem3.png (PNG copy)>] (./file.aux) )
+Package pdftex.def Info: Problem3.png  used on input line 171.
+(pdftex.def)             Requested size: 276.65791pt x 237.51176pt.
+<Problem4.png, id=33, 1311.39937pt x 710.655pt>
+File: Problem4.png Graphic file (type png)
+<use Problem4.png>
+Package pdftex.def Info: Problem4.png  used on input line 175.
+(pdftex.def)             Requested size: 327.84904pt x 177.66331pt.
+ [5 <./Problem2.png (PNG copy)> <./Problem3.png (PNG copy)>]
+<Problem5.png, id=37, 1257.19687pt x 608.2725pt>
+File: Problem5.png Graphic file (type png)
+<use Problem5.png>
+Package pdftex.def Info: Problem5.png  used on input line 179.
+(pdftex.def)             Requested size: 314.29845pt x 152.06775pt.
+<Problem6.png, id=38, 1329.46687pt x 392.96812pt>
+File: Problem6.png Graphic file (type png)
+<use Problem6.png>
+Package pdftex.def Info: Problem6.png  used on input line 183.
+(pdftex.def)             Requested size: 332.3659pt x 98.24178pt.
+ [6 <./Problem4.png (PNG copy)> <./Problem5.png (PNG copy)> <./Problem6.png (PNG copy)>] (./file.aux) )
 (\end occurred when \ifx on line 160 was incomplete)
 (\end occurred when \ifx on line 160 was incomplete)
 (\end occurred when \ifx on line 160 was incomplete)
@@ -562,18 +578,18 @@ Package pdftex.def Info: Problem3.png  used on input line 170.
 (\end occurred when \ifx on line 134 was incomplete)
 (\end occurred when \ifx on line 134 was incomplete) 
 Here is how much of TeX's memory you used:
- 17784 strings out of 478238
- 363054 string characters out of 5850456
- 720330 words of memory out of 5000000
- 35724 multiletter control sequences out of 15000+600000
+ 17805 strings out of 478238
+ 363399 string characters out of 5850456
+ 720332 words of memory out of 5000000
+ 35742 multiletter control sequences out of 15000+600000
  478657 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,7n,94p,442b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on file.pdf (5 pages, 815784 bytes).
+Output written on file.pdf (6 pages, 1001271 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
