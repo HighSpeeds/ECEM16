@@ -672,4 +672,82 @@
     <wire from="(510,420)" to="(510,480)"/>
     <wire from="(520,360)" to="(550,360)"/>
   </circuit>
+  <circuit name="Problem6">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="Problem6"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(200,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(200,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(280,330)" name="Bit Extender">
+      <a name="in_width" val="4"/>
+      <a name="out_width" val="7"/>
+      <a name="type" val="zero"/>
+    </comp>
+    <comp lib="0" loc="(280,380)" name="Bit Extender">
+      <a name="in_width" val="4"/>
+      <a name="out_width" val="7"/>
+      <a name="type" val="zero"/>
+    </comp>
+    <comp lib="0" loc="(320,310)" name="Constant">
+      <a name="value" val="0x3"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(320,370)" name="Constant">
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(610,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="3" loc="(360,300)" name="Shifter">
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="3" loc="(360,360)" name="Shifter">
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="3" loc="(450,330)" name="Adder">
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="3" loc="(560,340)" name="Adder">
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="8" loc="(139,306)" name="Text">
+      <a name="text" val="D1"/>
+    </comp>
+    <comp lib="8" loc="(141,359)" name="Text">
+      <a name="text" val="D0"/>
+    </comp>
+    <comp lib="8" loc="(642,319)" name="Text">
+      <a name="text" val="Z"/>
+    </comp>
+    <wire from="(200,330)" to="(240,330)"/>
+    <wire from="(200,380)" to="(240,380)"/>
+    <wire from="(280,330)" to="(300,330)"/>
+    <wire from="(280,380)" to="(300,380)"/>
+    <wire from="(300,290)" to="(300,330)"/>
+    <wire from="(300,290)" to="(320,290)"/>
+    <wire from="(300,330)" to="(300,350)"/>
+    <wire from="(300,350)" to="(320,350)"/>
+    <wire from="(300,380)" to="(300,420)"/>
+    <wire from="(300,420)" to="(480,420)"/>
+    <wire from="(360,300)" to="(380,300)"/>
+    <wire from="(360,360)" to="(380,360)"/>
+    <wire from="(380,300)" to="(380,320)"/>
+    <wire from="(380,320)" to="(410,320)"/>
+    <wire from="(380,340)" to="(380,360)"/>
+    <wire from="(380,340)" to="(410,340)"/>
+    <wire from="(450,330)" to="(520,330)"/>
+    <wire from="(480,350)" to="(480,420)"/>
+    <wire from="(480,350)" to="(520,350)"/>
+    <wire from="(560,340)" to="(610,340)"/>
+  </circuit>
 </project>
