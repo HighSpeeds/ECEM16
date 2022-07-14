@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1657772846 "/home/lawrence/Desktop/UCLA/ECEM16/HW2/file.tex" "file.pdf" "file" 1657772846
+["pdflatex"] 1657834922 "/home/lawrence/Desktop/UCLA/ECEM16/HW2/file.tex" "file.pdf" "file" 1657834922
   "../HW1/Kmap.jpg" 1656461772 215968 d848e69a8a7e391492856a78c0f44b0a ""
   "/home/lawrence/Desktop/UCLA/ECEM16/HW2/file.tex" 1657772845 6487 a214c69d2332b6d1be6b6987332f0922 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1650183167 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -147,11 +147,11 @@
   "Problem2.png" 1657690785 69406 7a7a5135ef534b2c55d5e3c7e2c22d24 ""
   "Problem3.png" 1657772780 81954 501204f83e85c41d0ce6251d7dccba3d ""
   "Problem4.png" 1657759742 105651 488146fef982ffcd72bf67160808266c ""
-  "Problem5.png" 1657761200 41543 c386b713846ade4d242a12ffda3ba68a ""
+  "Problem5.png" 1657834922 42149 263d02298091f7bc65b14edcd08258f9 ""
   "Problem6.png" 1657772635 48688 983286dc4438e6c4d4f5dad0bd428821 ""
   "Problem7Kmap.jpg" 1657665312 219619 12fecf7649cffc052f7840a7365b333e ""
   "Problem7Partc.png" 1657680381 70368 fa1ec9ace5d227c51da24cca678b4f64 ""
-  "file.aux" 1657772846 112 a02d5e4ac731e0ceb5f2c7e8018f0da1 "pdflatex"
+  "file.aux" 1657834922 112 a02d5e4ac731e0ceb5f2c7e8018f0da1 "pdflatex"
   "file.tex" 1657772845 6487 a214c69d2332b6d1be6b6987332f0922 ""
   (generated)
   "file.aux"
