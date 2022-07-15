@@ -70,7 +70,6 @@
       <a name="incoming" val="6"/>
       <a name="spacing" val="2"/>
     </comp>
-    <comp lib="0" loc="(220,660)" name="Constant"/>
     <comp lib="0" loc="(290,480)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="16"/>
@@ -116,8 +115,6 @@
     </comp>
     <wire from="(210,670)" to="(250,670)"/>
     <wire from="(210,690)" to="(320,690)"/>
-    <wire from="(220,660)" to="(240,660)"/>
-    <wire from="(240,650)" to="(240,660)"/>
     <wire from="(250,650)" to="(250,670)"/>
     <wire from="(290,480)" to="(300,480)"/>
     <wire from="(320,500)" to="(320,690)"/>

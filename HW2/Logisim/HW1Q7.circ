@@ -77,27 +77,25 @@
       <a name="spacing" val="3"/>
     </comp>
     <comp lib="1" loc="(210,100)" name="NOT Gate"/>
-    <comp lib="1" loc="(220,240)" name="NOT Gate"/>
+    <comp lib="1" loc="(210,60)" name="NOT Gate"/>
     <comp lib="1" loc="(390,260)" name="NOR Gate"/>
     <comp lib="1" loc="(390,80)" name="NOR Gate"/>
     <comp lib="1" loc="(520,170)" name="NOR Gate"/>
-    <comp lib="1" loc="(580,170)" name="NOT Gate"/>
     <wire from="(110,150)" to="(140,150)"/>
     <wire from="(110,60)" to="(120,60)"/>
-    <wire from="(120,240)" to="(190,240)"/>
+    <wire from="(120,240)" to="(330,240)"/>
     <wire from="(120,60)" to="(120,240)"/>
-    <wire from="(120,60)" to="(330,60)"/>
+    <wire from="(120,60)" to="(180,60)"/>
     <wire from="(140,100)" to="(140,150)"/>
     <wire from="(140,100)" to="(180,100)"/>
     <wire from="(140,150)" to="(140,280)"/>
     <wire from="(140,280)" to="(330,280)"/>
     <wire from="(210,100)" to="(330,100)"/>
-    <wire from="(220,240)" to="(330,240)"/>
+    <wire from="(210,60)" to="(330,60)"/>
     <wire from="(390,150)" to="(460,150)"/>
     <wire from="(390,190)" to="(390,260)"/>
     <wire from="(390,190)" to="(460,190)"/>
     <wire from="(390,80)" to="(390,150)"/>
-    <wire from="(520,170)" to="(550,170)"/>
-    <wire from="(580,170)" to="(600,170)"/>
+    <wire from="(520,170)" to="(600,170)"/>
   </circuit>
 </project>

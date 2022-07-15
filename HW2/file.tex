@@ -13,6 +13,7 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{tikz -timing}
 \usepackage{tikz}
+\usepackage{listings}
 \usetikzlibrary{karnaugh}
 
 \definecolor{LogisimKMapColor0}{RGB}{128,0,0}
@@ -32,6 +33,32 @@
 \definecolor{LogisimKMapColor14}{RGB}{170,255,195}
 \definecolor{LogisimKMapColor15}{RGB}{240,50,230}
 
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
 
 \begin{document}
 \maketitle
@@ -75,9 +102,15 @@
 \subsection*{(b)}
 \includegraphics[scale=0.15]{Problem7Kmap.jpg}\\
 Therefore the equation is:
-$$\boxed{m_0.\overline{m_3}+\overline{m_0}.m3}$$
+$$\boxed{m_0.\overline{m_3}+\overline{m_0}.m_3}$$
 \subsection*{(c)}
-\includegraphics[scale=0.25]{Problem7Partc.png}
+\begin{align*}
+   m_0.\overline{m_3}+\overline{m_0}.m_3&=(m_0+m_3).(\overline{m_0}.\overline{m_3})\\
+   &=\overline{\overline{(m_0+m_3).(\overline{m_0}+\overline{m_3})}}\\
+   &=\overline{\overline{(m_0+m_3)}+\overline{(\overline{m_0}+\overline{m_3})}}
+\end{align*}
+\includegraphics[scale=0.25]{Problem7Partc.png}\\
+I checked my solution with the checker py file that I wrote, it  is attached below
 \section*{HW 2}
 \noindent\rule{15cm}{1pt}
 \section*{Problem 1}
@@ -173,17 +206,43 @@ Therefore the resulting circuit is \\
 \begin{center}
    \includegraphics[scale=0.25]{Problem3.png}
 \end{center}
+I checked my solution with the checker py file that I wrote, it  is attached below
 \section*{Problem 4}
 \begin{center}
    \includegraphics[scale=0.25]{Problem4.png}
 \end{center}
+I checked my solution with the checker py file that I wrote, it  is attached below
 \section*{Problem 5}
 \begin{center}
    \includegraphics[scale=0.25]{Problem5.png}
 \end{center}
+I checked my solution with the checker py file that I wrote, it  is attached below
 \section*{Problem 6}
 \begin{center}
    \includegraphics[scale=0.25]{Problem6.png}
 \end{center}
-
+I checked my solution with the checker py file that I wrote, it  is attached below
+\pagebreak
+\section*{Python Checker}
+\lstinputlisting[language=Python]{checker.py}
+I have the files in the following format:
+\begin{verbatim}
+ECEM16
+ |- .git
+ |- HW1
+ |- HW2
+ | |- Logisim
+ | | |- old
+ | | |- HW1Q7.circ
+ | | |- HW2Q3.circ
+ | | |- HW2Q4.circ
+ | | |- HW2Q5.circ
+ | | |- HW2Q6.circ
+ | :
+ | :
+ | |- checker.py
+ |- .gitignore
+ |- logisim-evolution.jar
+\end{verbatim}
+In order to use modifications may be  need to be made to the file paths
 \end{document}
