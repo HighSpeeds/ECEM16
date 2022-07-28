@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  27 JUL 2022 01:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  28 JUL 2022 13:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -538,24 +538,107 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 <Problem1.jpg, id=4, 2404.985pt x 1180.41pt>
 File: Problem1.jpg Graphic file (type jpg)
 <use Problem1.jpg>
-Package pdftex.def Info: Problem1.jpg  used on input line 93.
+Package pdftex.def Info: Problem1.jpg  used on input line 94.
 (pdftex.def)             Requested size: 360.7322pt x 177.05386pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./Problem1.jpg>] (./file.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<Q3A1Y1.jpg, id=17, 3035.34pt x 1636.1125pt>
+File: Q3A1Y1.jpg Graphic file (type jpg)
+<use Q3A1Y1.jpg>
+Package pdftex.def Info: Q3A1Y1.jpg  used on input line 127.
+(pdftex.def)             Requested size: 303.55179pt x 163.62083pt.
+<Q3A1Y0.jpg, id=18, 3035.34pt x 1547.7825pt>
+File: Q3A1Y0.jpg Graphic file (type jpg)
+<use Q3A1Y0.jpg>
+Package pdftex.def Info: Q3A1Y0.jpg  used on input line 129.
+(pdftex.def)             Requested size: 303.55179pt x 154.78731pt.
+<Q3circuit1.png, id=19, 1189.44376pt x 570.63188pt>
+File: Q3circuit1.png Graphic file (type png)
+<use Q3circuit1.png>
+Package pdftex.def Info: Q3circuit1.png  used on input line 131.
+(pdftex.def)             Requested size: 356.83588pt x 171.19089pt.
+<Q3A2Y1.jpg, id=20, 3035.34pt x 1249.66875pt>
+File: Q3A2Y1.jpg Graphic file (type jpg)
+<use Q3A2Y1.jpg>
+Package pdftex.def Info: Q3A2Y1.jpg  used on input line 133.
+(pdftex.def)             Requested size: 303.55179pt x 124.9742pt.
+<Q3A2Y0.jpg, id=21, 3035.34pt x 1838.87pt>
+File: Q3A2Y0.jpg Graphic file (type jpg)
+<use Q3A2Y0.jpg>
+Package pdftex.def Info: Q3A2Y0.jpg  used on input line 135.
+(pdftex.def)             Requested size: 303.55179pt x 183.89777pt.
+<Q3circuit2.png, id=22, 1303.87125pt x 882.29625pt>
+File: Q3circuit2.png Graphic file (type png)
+<use Q3circuit2.png>
+Package pdftex.def Info: Q3circuit2.png  used on input line 137.
+(pdftex.def)             Requested size: 391.1644pt x 264.69092pt.
+ [2 <./Problem1.jpg>] [3 <./Q3A1Y1.jpg> <./Q3A1Y0.jpg> <./Q3circuit1.png (PNG copy)>] [4 <./Q3A2Y1.jpg> <./Q3A2Y0.jpg> <./Q3circuit2.png (PNG copy)>]
+<Q4.png, id=34, 1627.58063pt x 683.55376pt>
+File: Q4.png Graphic file (type png)
+<use Q4.png>
+Package pdftex.def Info: Q4.png  used on input line 142.
+(pdftex.def)             Requested size: 488.27795pt x 205.0677pt.
+<Q4timing.png, id=35, 1784.16562pt x 180.675pt>
+File: Q4timing.png Graphic file (type png)
+<use Q4timing.png>
+Package pdftex.def Info: Q4timing.png  used on input line 144.
+(pdftex.def)             Requested size: 356.8268pt x 36.13435pt.
+
+Overfull \hbox (33.03384pt too wide) in paragraph at lines 141--145
+[]
+ []
+
+<Q5.png, id=36, 1912.14375pt x 787.44188pt>
+File: Q5.png Graphic file (type png)
+<use Q5.png>
+Package pdftex.def Info: Q5.png  used on input line 147.
+(pdftex.def)             Requested size: 516.28572pt x 212.61215pt.
+<Q5timing.png, id=37, 2783.90062pt x 224.33812pt>
+File: Q5timing.png Graphic file (type png)
+<use Q5timing.png>
+Package pdftex.def Info: Q5timing.png  used on input line 149.
+(pdftex.def)             Requested size: 556.77026pt x 44.86682pt.
+
+Overfull \hbox (61.04161pt too wide) in paragraph at lines 146--150
+[]
+ []
+
+
+Overfull \hbox (101.52615pt too wide) in paragraph at lines 146--150
+[] 
+ []
+
+[5 <./Q4.png (PNG copy)> <./Q4Timing.png (PNG copy)>]
+<Q6.png, id=41, 1910.63812pt x 691.08188pt>
+File: Q6.png Graphic file (type png)
+<use Q6.png>
+Package pdftex.def Info: Q6.png  used on input line 156.
+(pdftex.def)             Requested size: 477.65837pt x 172.77003pt.
+<Q6timing.png, id=42, 1457.445pt x 188.20313pt>
+File: Q6timing.png Graphic file (type png)
+<use Q6timing.png>
+Package pdftex.def Info: Q6timing.png  used on input line 158.
+(pdftex.def)             Requested size: 437.23688pt x 56.46136pt.
+
+Overfull \hbox (22.41426pt too wide) in paragraph at lines 154--159
+[]
+ []
+
+[6 <./Q5.png (PNG copy)> <./Q5Timing.png (PNG copy)> <./Q6.png (PNG copy)>] [7 <./Q6Timing.png (PNG copy)>] (./file.aux) ) 
 Here is how much of TeX's memory you used:
- 18913 strings out of 478238
- 377590 string characters out of 5850456
- 714709 words of memory out of 5000000
- 36848 multiletter control sequences out of 15000+600000
+ 18998 strings out of 478238
+ 378820 string characters out of 5850456
+ 714710 words of memory out of 5000000
+ 36920 multiletter control sequences out of 15000+600000
  478657 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,94p,442b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on file.pdf (2 pages, 351444 bytes).
+Output written on file.pdf (7 pages, 3221864 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

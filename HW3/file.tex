@@ -66,6 +66,7 @@
 \subsection*{(a)}
 It will toggle, if the latch is reset, ie $Q=0$ and $\bar{Q}=1$. Then the output will be $Q=1$ and $\bar{Q}=0$ following the clock pulse
 \subsection*{(b)}
+if $C=0$ it will latch, but with $C=1$ there will be following transition table
 \begin{center}
     \begin{tabular}{|c|c|c||c|}
         J & K & Q current & Q next \\
@@ -119,4 +120,41 @@ Which is the same as the transition table of the JK latch with $J=\bar{K}=D$.
         \hline
     \end{tabular}
 \end{center}
+
+\section*{Problem 3}
+\subsection*{(a)}
+The kmaps for assignment 1 are:\\
+\includegraphics[scale=0.1]{Q3A1Y1.jpg}\\
+and\\
+\includegraphics[scale=0.1]{Q3A1Y0.jpg}\\
+For $y_1$ and $y_0$ respectively, therefore the corresponding circuit is:\\
+\includegraphics[scale=0.3]{Q3circuit1.png}\\
+Likewise for assignment 2, the kmaps are:\\
+\includegraphics[scale=0.1]{Q3A2Y1.jpg}\\
+and\\
+\includegraphics[scale=0.1]{Q3A2Y0.jpg}\\
+For $y_1$ and $y_0$ respectively, therefore the corresponding circuit is:\\
+\includegraphics[scale=0.3]{Q3circuit2.png}
+\subsection*{(b)}
+Therefore assignment 1 is more economical since it uses less gates.
+\section*{Problem 4}
+Because we can use D flip flops to delay a signal, we have the following circuit
+\\\includegraphics[scale=0.3]{Q4.png}
+With the following timing diagram
+\\\includegraphics[scale=0.2]{Q4timing.png}
+\section*{Problem 5}
+Once again we can use D flip flops to delay the signal, therefore using a mux we have the following circuit
+\\\includegraphics[scale=0.27]{Q5.png}
+With the following timing diagram
+\\\includegraphics[scale=0.2]{Q5timing.png}
+\section*{Problem 6}
+Let the remainder at step $n$ be $r_n$, if the input bit is 0 we get that the remainder at step
+$n+1$ is 
+
+$$r_{n+1}=(2r_n)\% 6$$ and if the input bit is 1 we get that the remainder at step $n+1$ is $$r_{n+1}=(2r_n+1)\%6$$.
+Therefore we have the following circuit
+\\\includegraphics[scale=0.25]{Q6.png}
+With the following timing diagram
+\\\includegraphics[scale=0.3]{Q6timing.png}
+
 \end{document}

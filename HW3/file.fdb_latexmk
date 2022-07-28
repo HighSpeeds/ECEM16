@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1658909567 "/home/lawrence/Desktop/UCLA/ECEM16/HW3/file.tex" "file.pdf" "file" 1658909567
-  "/home/lawrence/Desktop/UCLA/ECEM16/HW3/file.tex" 1658909567 3700 d3fa532d6a68fc573e8b107dc160d860 ""
+["pdflatex"] 1659039142 "/home/lawrence/Desktop/UCLA/ECEM16/HW3/file.tex" "file.pdf" "file" 1659039142
+  "/home/lawrence/Desktop/UCLA/ECEM16/HW3/file.tex" 1659039142 5273 d217acc968a6fdeebf596d5c37131f67 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1650183167 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1650183167 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -146,8 +146,20 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1656415129 4278762 af3ac1370db81a450c1118eabf1fe718 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1656415124 2927666 47c85127fb15a6047c11d6c3af0a15b9 ""
   "Problem1.jpg" 1658905863 261411 2dc626e4a9c2c76faa8c5c116798e29b ""
-  "file.aux" 1658909567 112 a79fe896b56b4862b346df1ebf05b16d "pdflatex"
-  "file.tex" 1658909567 3700 d3fa532d6a68fc573e8b107dc160d860 ""
+  "Q3A1Y0.jpg" 1659038386 566349 ab0ca9584c25f11f1ecf5b0116f42378 ""
+  "Q3A1Y1.jpg" 1659038375 646092 e6a7b467ed5aad435c443e1b86ae0189 ""
+  "Q3A2Y0.jpg" 1659038407 747455 dd430b393fb9e4db094e0a91c11255bf ""
+  "Q3A2Y1.jpg" 1659038396 447365 51b087009860fd4c82b77f77d9b755a2 ""
+  "Q3circuit1.png" 1659037514 57583 0cf5e2d052a4de58edff6fb430e7f74a ""
+  "Q3circuit2.png" 1659037753 69483 35243bd4aa695628071fda663acfbf50 ""
+  "Q4.png" 1658965323 69121 c42e40661a6f837c36ca1151a4847772 ""
+  "Q4Timing.png" 1658965297 14970 3297536c95e1894d9b6396b265031316 ""
+  "Q5.png" 1658967049 103880 b5fcd52ec6c1cc7939a821cfcf3346fc ""
+  "Q5Timing.png" 1658967006 22784 6cf584ad83117d4a5ecd12495ce8bdc9 ""
+  "Q6.png" 1658983407 100320 7c6561c7d5c79bdca0ac157e0aa16bf2 ""
+  "Q6Timing.png" 1658993366 13579 938e0994c8366bcc9a7eeecaf9612692 ""
+  "file.aux" 1659039142 112 55aaa85c68d70b2ec4d72a0d2542ed5e "pdflatex"
+  "file.tex" 1659039142 5273 d217acc968a6fdeebf596d5c37131f67 ""
   (generated)
   "file.aux"
   "file.log"
