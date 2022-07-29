@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  28 JUL 2022 13:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  28 JUL 2022 23:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,11 +553,11 @@ File: Q3A1Y0.jpg Graphic file (type jpg)
 <use Q3A1Y0.jpg>
 Package pdftex.def Info: Q3A1Y0.jpg  used on input line 129.
 (pdftex.def)             Requested size: 303.55179pt x 154.78731pt.
-<Q3circuit1.png, id=19, 1189.44376pt x 570.63188pt>
+<Q3circuit1.png, id=19, 1196.97188pt x 600.74437pt>
 File: Q3circuit1.png Graphic file (type png)
 <use Q3circuit1.png>
 Package pdftex.def Info: Q3circuit1.png  used on input line 131.
-(pdftex.def)             Requested size: 356.83588pt x 171.19089pt.
+(pdftex.def)             Requested size: 359.09433pt x 180.2247pt.
 <Q3A2Y1.jpg, id=20, 3035.34pt x 1249.66875pt>
 File: Q3A2Y1.jpg Graphic file (type jpg)
 <use Q3A2Y1.jpg>
@@ -568,18 +568,18 @@ File: Q3A2Y0.jpg Graphic file (type jpg)
 <use Q3A2Y0.jpg>
 Package pdftex.def Info: Q3A2Y0.jpg  used on input line 135.
 (pdftex.def)             Requested size: 303.55179pt x 183.89777pt.
-<Q3circuit2.png, id=22, 1303.87125pt x 882.29625pt>
+<Q3circuit2.png, id=22, 1269.24188pt x 810.02625pt>
 File: Q3circuit2.png Graphic file (type png)
 <use Q3circuit2.png>
 Package pdftex.def Info: Q3circuit2.png  used on input line 137.
-(pdftex.def)             Requested size: 391.1644pt x 264.69092pt.
- [2 <./Problem1.jpg>] [3 <./Q3A1Y1.jpg> <./Q3A1Y0.jpg> <./Q3circuit1.png (PNG copy)>] [4 <./Q3A2Y1.jpg> <./Q3A2Y0.jpg> <./Q3circuit2.png (PNG copy)>]
-<Q4.png, id=34, 1627.58063pt x 683.55376pt>
+(pdftex.def)             Requested size: 380.7755pt x 243.00975pt.
+ [2 <./Problem1.jpg>] [3 <./Q3A1Y1.jpg> <./Q3A1Y0.jpg> <./Q3circuit1.png (PNG copy)>]
+<Q4.png, id=31, 1627.58063pt x 683.55376pt>
 File: Q4.png Graphic file (type png)
 <use Q4.png>
 Package pdftex.def Info: Q4.png  used on input line 142.
 (pdftex.def)             Requested size: 488.27795pt x 205.0677pt.
-<Q4timing.png, id=35, 1784.16562pt x 180.675pt>
+<Q4timing.png, id=32, 1784.16562pt x 180.675pt>
 File: Q4timing.png Graphic file (type png)
 <use Q4timing.png>
 Package pdftex.def Info: Q4timing.png  used on input line 144.
@@ -589,6 +589,7 @@ Overfull \hbox (33.03384pt too wide) in paragraph at lines 141--145
 []
  []
 
+[4 <./Q3A2Y1.jpg> <./Q3A2Y0.jpg> <./Q3circuit2.png (PNG copy)>]
 <Q5.png, id=36, 1912.14375pt x 787.44188pt>
 File: Q5.png Graphic file (type png)
 <use Q5.png>
@@ -609,7 +610,7 @@ Overfull \hbox (101.52615pt too wide) in paragraph at lines 146--150
 [] 
  []
 
-[5 <./Q4.png (PNG copy)> <./Q4Timing.png (PNG copy)>]
+[5 <./Q4.png (PNG copy)> <./Q4Timing.png (PNG copy)> <./Q5.png (PNG copy)>]
 <Q6.png, id=41, 1910.63812pt x 691.08188pt>
 File: Q6.png Graphic file (type png)
 <use Q6.png>
@@ -625,7 +626,7 @@ Overfull \hbox (22.41426pt too wide) in paragraph at lines 154--159
 []
  []
 
-[6 <./Q5.png (PNG copy)> <./Q5Timing.png (PNG copy)> <./Q6.png (PNG copy)>] [7 <./Q6Timing.png (PNG copy)>] (./file.aux) ) 
+[6 <./Q5Timing.png (PNG copy)> <./Q6.png (PNG copy)> <./Q6Timing.png (PNG copy)>] (./file.aux) ) 
 Here is how much of TeX's memory you used:
  18998 strings out of 478238
  378820 string characters out of 5850456
@@ -635,10 +636,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,10n,94p,442b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on file.pdf (7 pages, 3221864 bytes).
+Output written on file.pdf (6 pages, 3218771 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
