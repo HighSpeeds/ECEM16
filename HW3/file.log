@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  28 JUL 2022 23:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.28)  29 JUL 2022 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -590,27 +590,22 @@ Overfull \hbox (33.03384pt too wide) in paragraph at lines 141--145
  []
 
 [4 <./Q3A2Y1.jpg> <./Q3A2Y0.jpg> <./Q3circuit2.png (PNG copy)>]
-<Q5.png, id=36, 1912.14375pt x 787.44188pt>
+<Q5.png, id=36, 1356.56813pt x 578.16pt>
 File: Q5.png Graphic file (type png)
 <use Q5.png>
 Package pdftex.def Info: Q5.png  used on input line 147.
-(pdftex.def)             Requested size: 516.28572pt x 212.61215pt.
+(pdftex.def)             Requested size: 366.27829pt x 156.10529pt.
 <Q5timing.png, id=37, 2783.90062pt x 224.33812pt>
 File: Q5timing.png Graphic file (type png)
 <use Q5timing.png>
 Package pdftex.def Info: Q5timing.png  used on input line 149.
 (pdftex.def)             Requested size: 556.77026pt x 44.86682pt.
 
-Overfull \hbox (61.04161pt too wide) in paragraph at lines 146--150
-[]
- []
-
-
 Overfull \hbox (101.52615pt too wide) in paragraph at lines 146--150
 [] 
  []
 
-[5 <./Q4.png (PNG copy)> <./Q4Timing.png (PNG copy)> <./Q5.png (PNG copy)>]
+[5 <./Q4.png (PNG copy)> <./Q4Timing.png (PNG copy)> <./Q5.png (PNG copy)> <./Q5Timing.png (PNG copy)>]
 <Q6.png, id=41, 1910.63812pt x 691.08188pt>
 File: Q6.png Graphic file (type png)
 <use Q6.png>
@@ -626,7 +621,7 @@ Overfull \hbox (22.41426pt too wide) in paragraph at lines 154--159
 []
  []
 
-[6 <./Q5Timing.png (PNG copy)> <./Q6.png (PNG copy)> <./Q6Timing.png (PNG copy)>] (./file.aux) ) 
+[6 <./Q6.png (PNG copy)> <./Q6Timing.png (PNG copy)>] (./file.aux) ) 
 Here is how much of TeX's memory you used:
  18998 strings out of 478238
  378820 string characters out of 5850456
@@ -636,7 +631,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,10n,94p,442b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on file.pdf (6 pages, 3218771 bytes).
+Output written on file.pdf (6 pages, 3188764 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
