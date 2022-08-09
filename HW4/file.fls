@@ -630,6 +630,11 @@ INPUT ./Fig2.jpg
 OUTPUT file.pdf
 INPUT ./Fig2.jpg
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Fig6.jpg
+INPUT ./Fig6.jpg
+INPUT Fig6.jpg
+INPUT ./Fig6.jpg
+INPUT ./Fig6.jpg
 INPUT ./Fig3.jpg
 INPUT ./Fig3.jpg
 INPUT Fig3.jpg
