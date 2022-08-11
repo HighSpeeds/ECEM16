@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1660211453 "/home/lawrence/Desktop/UCLA/ECEM16/Final/file.tex" "file.pdf" "file" 1660211453
-  "/home/lawrence/Desktop/UCLA/ECEM16/Final/file.tex" 1660211175 6859 b409e4e077eb27981a0f8c75822a8f46 ""
+["pdflatex"] 1660243833 "/home/lawrence/Desktop/UCLA/ECEM16/Final/file.tex" "file.pdf" "file" 1660243833
+  "/home/lawrence/Desktop/UCLA/ECEM16/Final/file.tex" 1660243833 7339 020b6ab56d072c1018b177c383604130 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1650183167 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1650183167 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
@@ -153,14 +153,19 @@
   "checker.py" 1660195215 1338 5cdfe68de73ab12949b7857db67c0c14 ""
   "fig1.png" 1660194878 119977 c81c208df354ab86e7c3bd934dfa453f ""
   "fig10.png" 1660211448 195063 b7d98e0ae830b497c199cd9af2231266 ""
+  "fig11.jpg" 1660243168 143368 44aa3d741c9966497d069f7659875053 ""
+  "fig12.png" 1660243545 35791 70f71d8fe3dde143ac77590bea88f613 ""
+  "fig13.png" 1660243561 29626 6e24475ecda3aeb3ff0daaafef3c8e64 ""
+  "fig14.png" 1660243611 46230 b36c3b7beb482221c7bf2f1370bcc2af ""
+  "fig15.png" 1660243812 20524 262864eb0969be4eaa1ed9e6a79c3591 ""
   "fig4.jpg" 1660198580 288422 bcfc273a79e3d20d53efec6c1bc3a480 ""
   "fig5.png" 1660198828 7557 99da935ad1dce2a62d265bb15775a0c5 ""
   "fig6.png" 1660199110 12600 75ec726b3797b44ff8c9052ddbcfba45 ""
   "fig7.png" 1660199235 26555 3bde45508cbdd9e92987e0af25732d0b ""
   "fig8.png" 1660199559 27502 28ebdd052376c4a58fecd7032d0a257b ""
   "fig9.jpg" 1660211162 64223 c1d8c23704c5b511210ea8cf50671a48 ""
-  "file.aux" 1660211453 198 7d462adbd7540b96612e5f4939ba358d "pdflatex"
-  "file.tex" 1660211175 6859 b409e4e077eb27981a0f8c75822a8f46 ""
+  "file.aux" 1660243833 198 f850085a1f011ae4d607ad7055093253 "pdflatex"
+  "file.tex" 1660243833 7339 020b6ab56d072c1018b177c383604130 ""
   (generated)
   "file.aux"
   "file.log"

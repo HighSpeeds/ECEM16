@@ -161,47 +161,52 @@ For the ACK circuit we have the following transition table:
     \end{tabular}
 \end{center}
 This can be implemented with a flip flop with the clock input as DONE and the
-output $Q$ as ACK, and $\overline{Q}$ being fed into $D$. The transition table for\
-the GO circuit is the following:
+output $Q$ as ACK, and $\overline{Q}$ being fed into $D$, the circuit looks like this\\
+\includegraphics[scale=0.25]{fig13.png}\\
+When constructing the state diagram, I made the following assumptions,
+that immediately after DONE goes from 0 to 1, the GO signal must be dropped,
+as it appears on the example timing diagram. We have that the following states
+corresponds with the following combinations of REQ GO and DONE \\
 \begin{center}
-    
-    \begin{tabular}{|c|c|c|}
-        Current State REQ,DONE,GO & input (REQ,DONE) & Next State (GO) \\
+    \begin{tabular}{c|c}
+        State & REQ GO DONE\\
         \hline
-        0,0,x & 0,x & 0\\
-        \hline
-        0,0,x & 1,x & 1\\
-        \hline
-        0,1,x & 0,x & 0\\
-        \hline
-        0,1,x & 1,x & 1\\
-        \hline
-        1,0,x & 0,x & 1\\
-        \hline
-        1,0,x & 1,x & 1\\
-        \hline
-        x,0,1 & x,0 & 1\\
-        \hline
-        x,0,1 & x,1 & 0\\
-        \hline
-        0,1 & 0 & 1\\
-        \hline
-        0,1 & 1 & 0\\
-        \hline
-        1,1 & 0 & 0\\
-        \hline
-        1,1 & 1 & 1\\
-        \hline
-        1,0 & 0 & 1\\
-        \hline
-        1,0 & 1 & 0\\
-        \hline
+        S0 & 000\\
+\hline
+S1 & 001\\
+\hline
+S2 & 010\\
+\hline
+S3 & 011\\
+\hline
+S4 & 100\\
+\hline
+S5 & 101\\
+\hline
+S6 & 110\\
+\hline
+S7 & 111\\
+\hline
     \end{tabular}
 \end{center}
-When constructing this transition tables, I made the following assumptions,
-that immediately after DONE goes from 0 to 1, the GO signal must be dropped,
-as it appears on the example timing diagram. 
+S3 and S7 cannot happen since we assumed that when DONE goes to 1 GO drops to 0.
+Therefore we will have the following state diagram.\\
+\includegraphics[scale=0.25]{fig11.jpg}\\
+A thing to notice, is that effectively we want GO's output to go to 1 every time 
+REQ signal switches. This can be done by connecting the REQ signal with 
+the input to a D-flip flo, and XORing the output of the flip flop with
+REQ. 
+
+We also want GO to drop to zero every time we receive a DONE signal. This can be 
+easily done by having the DONE input being connected to the clock input of the
+aforementioned D-flip flop, resulting in a circuit like this.\\
+\includegraphics[scale=0.25]{fig12.png}\\
+
 \section*{Problem 7}
+The whole circuit looks like this\\
+\includegraphics[scale=0.25]{fig14.png}\\
+And has a chronograph of:\\
+\includegraphics[scale=0.25]{fig15.png}
 \section*{Problem 8}
 Using the following flow chart\\
 \includegraphics[scale=0.25]{fig9.jpg}\\
