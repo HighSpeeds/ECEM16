@@ -84,8 +84,6 @@
       <a name="label" val="RESET"/>
     </comp>
     <comp lib="1" loc="(1050,160)" name="XOR Gate"/>
-    <comp lib="1" loc="(1140,240)" name="NOT Gate"/>
-    <comp lib="1" loc="(1220,220)" name="AND Gate"/>
     <comp lib="4" loc="(850,170)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
@@ -93,22 +91,13 @@
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <wire from="(1050,160)" to="(1140,160)"/>
-    <wire from="(1060,240)" to="(1060,260)"/>
-    <wire from="(1060,240)" to="(1110,240)"/>
-    <wire from="(1140,160)" to="(1140,200)"/>
-    <wire from="(1140,200)" to="(1170,200)"/>
-    <wire from="(1140,240)" to="(1170,240)"/>
-    <wire from="(1220,220)" to="(1290,220)"/>
-    <wire from="(1290,220)" to="(1290,240)"/>
-    <wire from="(1290,240)" to="(1320,240)"/>
-    <wire from="(510,120)" to="(750,120)"/>
+    <wire from="(1140,160)" to="(1140,240)"/>
+    <wire from="(1140,240)" to="(1320,240)"/>
     <wire from="(530,180)" to="(810,180)"/>
     <wire from="(530,310)" to="(750,310)"/>
     <wire from="(530,390)" to="(840,390)"/>
-    <wire from="(750,120)" to="(750,220)"/>
+    <wire from="(750,220)" to="(750,310)"/>
     <wire from="(750,220)" to="(840,220)"/>
-    <wire from="(750,260)" to="(1060,260)"/>
-    <wire from="(750,260)" to="(750,310)"/>
     <wire from="(750,310)" to="(790,310)"/>
     <wire from="(790,310)" to="(790,360)"/>
     <wire from="(790,360)" to="(900,360)"/>

@@ -36,6 +36,6 @@ def checkQ2(truth_table:pd.DataFrame)->bool:
     return True
 
 if __name__=="__main__":
-    truth_table=RunCircuit("../logisim-evolution.jar","Logisim/FinalQ3.circ")
+    truth_table=RunCircuit("../logisim-evolution.jar","logisim/FinalQ3.circ")
     if checkQ2(truth_table):
         print("Q2 passed!")

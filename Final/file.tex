@@ -106,7 +106,7 @@ This script utilizes Logisim's command line ability. I had the files in the foll
 ECEM16
  |- .gitignore
  |- Final
- | |- Logisim
+ | |-logisim
  | | |- FinalQ3.circ
  | :
  | :
@@ -135,75 +135,47 @@ as test in the chronograph below.\\
 \includegraphics[scale=0.2]{fig8.png}
 As one can see, the chronograph outputs of my counter vs logisim's counter is the same.
 \section*{Problem 6}
-We can break it up into two circuits, one for the GO signal with inputs of REQ and DONE, and one for the ACK signal with an input of DONE
-For the ACK circuit we have the following transition table:
-\begin{center}
-    
-    \begin{tabular}{|c|c|c|}
-        Current State DONE,ACK & input (DONE) & Next State \\
-        \hline
-        0,0 & 0 & 0\\
-        \hline
-        0,0 & 1 & 1\\
-        \hline
-        0,1 & 0 & 1\\
-        \hline
-        0,1 & 1 & 0\\
-        \hline
-        1,1 & 0 & 0\\
-        \hline
-        1,1 & 1 & 1\\
-        \hline
-        1,0 & 0 & 1\\
-        \hline
-        1,0 & 1 & 0\\
-        \hline
-    \end{tabular}
-\end{center}
-This can be implemented with a flip flop with the clock input as DONE and the
-output $Q$ as ACK, and $\overline{Q}$ being fed into $D$, the circuit looks like this\\
-\includegraphics[scale=0.25]{fig13.png}\\
-When constructing the state diagram, I made the following assumptions,
-that immediately after DONE goes from 0 to 1, the GO signal must be dropped,
-as it appears on the example timing diagram. We have that the following states
-corresponds with the following combinations of REQ GO and DONE \\
-\begin{center}
-    \begin{tabular}{c|c}
-        State & REQ GO DONE\\
-        \hline
-        S0 & 000\\
-\hline
-S1 & 001\\
-\hline
-S2 & 010\\
-\hline
-S3 & 011\\
-\hline
-S4 & 100\\
-\hline
-S5 & 101\\
-\hline
-S6 & 110\\
-\hline
-S7 & 111\\
-\hline
-    \end{tabular}
-\end{center}
-S3 and S7 cannot happen since we assumed that when DONE goes to 1 GO drops to 0.
-Therefore we will have the following state diagram.\\
-\includegraphics[scale=0.25]{fig11.jpg}\\
-A thing to notice, is that effectively we want GO's output to go to 1 every time 
-REQ signal switches. This can be done by connecting the REQ signal with 
-the input to a D-flip flo, and XORing the output of the flip flop with
-REQ. 
 
-We also want GO to drop to zero every time we receive a DONE signal. This can be 
-easily done by having the DONE input being connected to the clock input of the
-aforementioned D-flip flop, resulting in a circuit like this.\\
-\includegraphics[scale=0.25]{fig12.png}\\
+We have the following transition table:
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    & Prev state& \multicolumn{4}{c}{Inputs (REQ,DONE)} & \multicolumn{2}{c}{OUTPUT} \\
+    \hline
+    & $(y_1y_0)^n$ &0,0 &0,1 &1,1 &1,0 & GO & ACK\\
+    \hline
+    S1 & 0,0 & S1 & & &S2 & 0 & 0\\
+    \hline
+    S2 & 0,1 & & &S3 &S2 & 1 & 0\\
+    \hline
+    S3 & 1,1 &S4 & & &S3 & 0 & 1\\
+    \hline
+    S4 & 1,0 &S4 & S1& & &1 & 1\\       
+    \end{tabular}
+
+\end{center}
+The corresponding state diagram is shown below.\\
+\includegraphics[scale=.075]{fig11.jpg}
+
+And it results in the following kmap for $y_1$\\
+\includegraphics[scale=0.15]{fig20.jpg}\\
+Which corresponds with the equation:
+$$y_1^{n+1}=y_1^n.\overline{REQ}+DONE.REQ$$
+Likewise the kmap for $y_0$ is shown below.\\
+\includegraphics[scale=0.15]{fig21.jpg}\\
+Which corresponds with the equation:
+$$y_0^{n+1}=y_0^n.REQ+\overline{y_1^n}.REQ$$
+We have that
+\begin{align*}
+    GO^{n+1}&=y_1^{n+1}.\overline{y_0^{n+1}}+\overline{y_1^{n+1}}.y_0^{n+1}\\
+\end{align*}
+And
+\begin{align*}
+    ACK^{n+1}&=y_1^{n+1}\\
+    &=y_1^n.\overline{REQ}+DONE.REQ
+\end{align*}
+
 
 \section*{Problem 7}
-The whole circuit looks like this\\
 \includegraphics[scale=0.25]{fig14.png}\\
 And has a chronograph of:\\
 \includegraphics[scale=0.25]{fig15.png}
