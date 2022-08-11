@@ -56,13 +56,14 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1280,510)" name="Pin">
+    <comp lib="0" loc="(1430,520)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="C"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
     </comp>
-    <comp lib="0" loc="(1280,510)" name="Splitter">
+    <comp lib="0" loc="(1430,520)" name="Splitter">
       <a name="bit0" val="1"/>
       <a name="bit1" val="0"/>
       <a name="facing" val="west"/>
@@ -74,14 +75,6 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="RESET"/>
     </comp>
-    <comp lib="1" loc="(1160,590)" name="NOT Gate"/>
-    <comp lib="1" loc="(1190,580)" name="AND Gate">
-      <a name="size" val="30"/>
-    </comp>
-    <comp lib="1" loc="(860,580)" name="NOT Gate"/>
-    <comp lib="1" loc="(910,570)" name="AND Gate">
-      <a name="size" val="30"/>
-    </comp>
     <comp lib="4" loc="(1100,510)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
@@ -92,15 +85,13 @@
     <wire from="(1050,450)" to="(1210,450)"/>
     <wire from="(1050,520)" to="(1090,520)"/>
     <wire from="(1120,570)" to="(1120,590)"/>
-    <wire from="(1120,590)" to="(1120,610)"/>
-    <wire from="(1120,590)" to="(1130,590)"/>
-    <wire from="(1150,520)" to="(1260,520)"/>
-    <wire from="(1150,560)" to="(1150,570)"/>
-    <wire from="(1150,570)" to="(1160,570)"/>
-    <wire from="(1190,580)" to="(1210,580)"/>
-    <wire from="(1210,450)" to="(1210,580)"/>
-    <wire from="(1240,530)" to="(1240,640)"/>
-    <wire from="(1240,530)" to="(1260,530)"/>
+    <wire from="(1150,520)" to="(1390,520)"/>
+    <wire from="(1150,560)" to="(1210,560)"/>
+    <wire from="(1210,450)" to="(1210,560)"/>
+    <wire from="(1240,540)" to="(1240,640)"/>
+    <wire from="(1240,540)" to="(1410,540)"/>
+    <wire from="(1390,520)" to="(1390,530)"/>
+    <wire from="(1390,530)" to="(1410,530)"/>
     <wire from="(600,610)" to="(720,610)"/>
     <wire from="(610,510)" to="(610,590)"/>
     <wire from="(610,590)" to="(820,590)"/>
@@ -110,18 +101,12 @@
     <wire from="(730,490)" to="(920,490)"/>
     <wire from="(730,520)" to="(790,520)"/>
     <wire from="(820,570)" to="(820,590)"/>
-    <wire from="(820,590)" to="(820,610)"/>
-    <wire from="(820,590)" to="(830,590)"/>
-    <wire from="(820,610)" to="(1120,610)"/>
-    <wire from="(830,580)" to="(830,590)"/>
-    <wire from="(850,520)" to="(980,520)"/>
-    <wire from="(850,560)" to="(880,560)"/>
-    <wire from="(860,580)" to="(880,580)"/>
-    <wire from="(910,570)" to="(920,570)"/>
-    <wire from="(920,490)" to="(920,570)"/>
-    <wire from="(920,570)" to="(920,640)"/>
-    <wire from="(920,640)" to="(1240,640)"/>
-    <wire from="(980,520)" to="(980,560)"/>
-    <wire from="(980,560)" to="(1090,560)"/>
+    <wire from="(820,590)" to="(1120,590)"/>
+    <wire from="(850,520)" to="(940,520)"/>
+    <wire from="(850,560)" to="(920,560)"/>
+    <wire from="(920,490)" to="(920,560)"/>
+    <wire from="(920,560)" to="(1090,560)"/>
+    <wire from="(940,520)" to="(940,640)"/>
+    <wire from="(940,640)" to="(1240,640)"/>
   </circuit>
 </project>
